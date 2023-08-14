@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moonlight.Plugins.MinecraftVersions", "Moonlight.Plugins.MinecraftVersions\Moonlight.Plugins.MinecraftVersions.csproj", "{CC23AD88-F49F-4E67-8FCE-5E8618979847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moonlight.Plugins.JavascriptUtils", "Moonlight.Plugins.JavascriptUtils\Moonlight.Plugins.JavascriptUtils.csproj", "{1420FBD9-3AA9-4F00-B113-9FE7BD4EF1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moonlight.Plugins.PythonUtils", "Moonlight.Plugins.PythonUtils\Moonlight.Plugins.PythonUtils.csproj", "{BCB8FF00-0B60-4375-961B-14C06A6355F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC23AD88-F49F-4E67-8FCE-5E8618979847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC23AD88-F49F-4E67-8FCE-5E8618979847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC23AD88-F49F-4E67-8FCE-5E8618979847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC23AD88-F49F-4E67-8FCE-5E8618979847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1420FBD9-3AA9-4F00-B113-9FE7BD4EF1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1420FBD9-3AA9-4F00-B113-9FE7BD4EF1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1420FBD9-3AA9-4F00-B113-9FE7BD4EF1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1420FBD9-3AA9-4F00-B113-9FE7BD4EF1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB8FF00-0B60-4375-961B-14C06A6355F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB8FF00-0B60-4375-961B-14C06A6355F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB8FF00-0B60-4375-961B-14C06A6355F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB8FF00-0B60-4375-961B-14C06A6355F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
