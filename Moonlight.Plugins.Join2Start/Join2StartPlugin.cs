@@ -14,11 +14,14 @@ public class Join2StartPlugin : MoonlightPlugin
 
         OnBuildServerPage += context =>
         {
-            context.Settings.Add(new()
+            if (context.ImageTags.Contains("join2start"))
             {
-                Name = "Join2Start",
-                Component = ComponentHelper.FromType(typeof(Join2StartSetting))
-            });
+                context.Settings.Add(new()
+                {
+                    Name = "Join2Start",
+                    Component = ComponentHelper.FromType(typeof(Join2StartSetting))
+                });
+            }
             
             return Task.CompletedTask;
         };
