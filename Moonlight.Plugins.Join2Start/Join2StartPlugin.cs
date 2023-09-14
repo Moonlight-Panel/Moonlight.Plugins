@@ -1,4 +1,6 @@
-﻿using Moonlight.App.Plugin;
+﻿using Moonlight.App.Helpers;
+using Moonlight.App.Plugin;
+using Moonlight.Plugins.Join2Start.UI;
 
 namespace Moonlight.Plugins.Join2Start;
 
@@ -14,7 +16,8 @@ public class Join2StartPlugin : MoonlightPlugin
         {
             context.Settings.Add(new()
             {
-                Name = "Join2Start"
+                Name = "Join2Start",
+                Component = ComponentHelper.FromType(typeof(Join2StartSetting))
             });
             
             return Task.CompletedTask;
